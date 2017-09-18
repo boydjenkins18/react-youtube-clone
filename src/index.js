@@ -29,7 +29,7 @@ class App extends React.Component{
   render(){
 
     return(
-      <div>
+      <div id='container'>
         <Logo />
         <SearchBar onUpdateSearch={this.onUpdateSearch.bind(this)} videos={this.state.videos}/>
         <div className='container'>
